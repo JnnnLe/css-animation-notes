@@ -1,0 +1,10 @@
+Effects: Pseuedo-Classes
+
+  // :hover from divs to buttons
+
+  // :focus triggers when an elem 'recieves focus', applies to input, buttons, and text areas
+  
+  // :active triggers when an elem is being 'activated from user'
+
+    difference btwn :focus and :active 
+      //active is the brief in-moment of clicked
