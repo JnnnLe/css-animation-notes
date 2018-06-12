@@ -1,0 +1,20 @@
+4 Transition prop: 
+    [
+      transition-duration, transition-property,
+      transition-timing-function,
+      transition-delay
+    ]
+
+  //transition-duration: 
+    how long the transition should last
+
+  //transition-property: 
+    which properties should be transitioned
+    available : [background, opacity, transform, all, color, ...]
+
+  ** properties can have multiple value by commas **
+    eg.
+        .animated {
+          transition-property: background, border-radius;
+          transition-duration: 5s, 2s (order matters)
+        }
