@@ -1,0 +1,17 @@
+Transform property: 
+
+  // transform  {translate(x ,y)}
+    means moving elements around in css, from it's natural positionial origin. (top left top corner)
+
+  // transform {scale(x,y)}
+    used to change the size 
+    naturally it scales from the center
+
+    ****  use transform-origin  ****
+    it scales in a more logical order
+
+  // transform: {rotate(deg)}
+    ** transform origin: center **
+    w/ transform-origin: `here`
+
+    when using multiple transform prop, keep them on the same line - do not call again on diff line, it will overwrite the transform prop before it.
