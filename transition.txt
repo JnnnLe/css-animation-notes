@@ -32,3 +32,13 @@
       easing.net, 
       custom transition cubic-biezier curve: https://matthewlein.com/tools/ceaser
     ] **
+
+
+SHORTHAND TRANSITIONS: 
+  they can be chained,
+  all of the transition properties above can be compressed like so:
+  
+    transition: <property> <duration> <timing-function> <delay>
+  
+    eg.
+    transition: background 1.5s       ease-in           1
