@@ -15,3 +15,6 @@ Transform property:
     w/ transform-origin: `here`
 
     when using multiple transform prop, keep them on the same line - do not call again on diff line, it will overwrite the transform prop before it.
+
+  vendor prefixes: 
+  [pleeease, autoprefixer]
